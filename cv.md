@@ -1,3 +1,5 @@
+![my_photo](./my_photo.jpg)
+
 ## Anastasiya Pupkevich
 
 #### Junior Frontend Developer
