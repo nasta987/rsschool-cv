@@ -1,1 +1,47 @@
+* {
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-container,
+.footer-container {
+  background-color: #c5c6c7;
+}
+
+.footer-container {
+  border: 1px solid transparent;
+}
+
+.nav-list-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
