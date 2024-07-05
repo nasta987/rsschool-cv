@@ -153,3 +153,36 @@ a:hover {
   transition: 0.3s;
   color: #e7717d;
 }
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 0 5px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .my-photo img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .code {
+    font-size: 14px;
+  }
+}
